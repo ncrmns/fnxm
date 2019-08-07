@@ -1,13 +1,13 @@
 # Final exam requirement
 ## Endpoint
-  - params
-		    Named URL segments used to capture the values specified at their position in the URL
-		    Route path: 	/users/:userId/books/:bookId
-		    Request url: http://../users/420/books/23
-		    Object: 			req.params: { "userId" : "420" , "bookId" : "23" }
-  - header
-	- body
-	- request / response
+  params
+	   Named URL segments used to capture the values specified at their position in the URL
+		 Route path: 	/users/:userId/books/:bookId
+		 Request url: http://../users/420/books/23
+		 Object: 			req.params: { "userId" : "420" , "bookId" : "23" }
+  header
+	body
+	request / response
 		 Network packet to be sent between client and web server.
 
 		 Request line:
@@ -24,7 +24,7 @@
 		 Body (optional)
 		  - content
 		 
-  - status (200, 404)
+  status (200, 404)
 		 2xx Succes
       - 200 ok
 		  - 201 created
@@ -40,19 +40,19 @@
 
 		 5xx Server side error
 		  - 500 Internal server error
-  - REST
+  REST
 	   REpresentational State Transfer
 			- architectural style for providing standards between computer systems on the web
 			- REST requires that a client make a request to the server in order to retrieve or modify data on the server
 
-  - HTTP, HTTPS
+  HTTP, HTTPS
 		 HyperText Transfer Protocol / Secure
 			- SSL encryption layer
 				+ verifying that you talking directly to the server
 				+ set up by a handshake
 				+ agree on a "cipher suite" to use encrypting/decrypting packets
 
-  - parts of URL
+  parts of URL
 		 http :// www.website.com / users / :param1 / data ? query1=xy & query2=zx
 		  1.             2.           3.        4.     3.        5.          5.
 			1 - protocol
