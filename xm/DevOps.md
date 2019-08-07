@@ -134,25 +134,25 @@ end to end
 Mocking (mock, stub, spy)
 
     mock:
-		  We use mocks when we:
-		  - don’t want to invoke production code
-		  - when there is no easy way to verify, that the intended code was executed
-		  - There is no return value and no easy way to check system state change
+      We use mocks when we:
+      - don’t want to invoke production code
+      - when there is no easy way to verify, that the intended code was executed
+      - There is no return value and no easy way to check system state change
 
-		  An example can be a functionality that calls e-mail sending service.
-		  We don’t want to send e-mails each time we run a test. Moreover, it is not easy
-		  to verify in tests that a right email was sent. Only thing we can do is to verify the
+      An example can be a functionality that calls e-mail sending service.
+      We don’t want to send e-mails each time we run a test. Moreover, it is not easy
+      to verify in tests that a right email was sent. Only thing we can do is to verify the
       outputs of the functionality that is exercised in our test. In other
       words, verify the e-mail sending service was called.
 
-		stub:
-		  is an object that holds predefined data and uses it to answer calls during tests. 
-			It is used when we cannot or don’twant to involve objects that would answer with
-			real data or haveundesirable side effects.
+    stub:
+      is an object that holds predefined data and uses it to answer calls during tests. 
+      It is used when we cannot or don’twant to involve objects that would answer with
+      real data or haveundesirable side effects.
 
     spy:
-		  lets you take an existing class, function, object and mock it in such a way that you 
-		  can control what gets returned from functions.
+      lets you take an existing class, function, object and mock it in such a way that you 
+      can control what gets returned from functions.
 
   - assertions
 
