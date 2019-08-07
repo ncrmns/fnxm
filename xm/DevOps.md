@@ -58,14 +58,15 @@ HTTP, HTTPS
 
 parts of URL
 
-    http :// www.website.com / users / :param1 / data ? query1=xy & query2=zx
-    .1..............2............3........4........3........5...........5....
+    http :// www.website.com / users / :param1 / data ? query1=xy & query2=zx #hash
+    .1..............2............3........4........3........5...........5.......6.
 
 		1 - protocol
 		2 - "www" : world wide web, "website" : domain name, ".com" : domain extension
 		3,4,3 - resource name
 		4 - segments of the resource name as parameters
 		5 - after "?" query : "key=value" pairs devided by "&"
+		6 - hash : relates to a section of a page
 
   - Examples:
     - Download pdf endpoint
@@ -123,16 +124,35 @@ endpoint
 		+ postman
 		+ mockMVC
 
-  - end to end
+end to end
 
 	End-to-end testing is a methodology used to test whether the flow of an application is 
 	performing as designed from start to finish. The purpose of carrying out end-to-end tests 
 	is to identify system dependencies and to ensure that the right information is passed between
 	various system components and systems.
 
-  - Mocking (mock, stub, spy)
+Mocking (mock, stub, spy)
 
+    mock:
+		  We use mocks when we:
+		  - don’t want to invoke production code
+		  - when there is no easy way to verify, that the intended code was executed
+		  - There is no return value and no easy way to check system state change
 
+		  An example can be a functionality that calls e-mail sending service.
+		  We don’t want to send e-mails each time we run a test. Moreover, it is not easy
+		  to verify in tests that a right email was sent. Only thing we can do is to verify the
+      outputs of the functionality that is exercised in our test. In other
+      words, verify the e-mail sending service was called.
+
+		stub:
+		  is an object that holds predefined data and uses it to answer calls during tests. 
+			It is used when we cannot or don’twant to involve objects that would answer with
+			real data or haveundesirable side effects.
+
+    spy:
+		  lets you take an existing class, function, object and mock it in such a way that you 
+		  can control what gets returned from functions.
 
   - assertions
 
