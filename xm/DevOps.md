@@ -78,6 +78,25 @@ parts of URL
   - layers
   - service
   - MVC
+    an application design model, consists of three parts:
+		- MODEL : database
+			Model represents shape of the data. It specifies the structure of data used by a program. 
+			This may be a database, file, or a simple object, such as an icon or a character in a
+			video game.
+
+		- VIEW : frontend
+			A view is the means of displaying objects within an application. 
+			Examples: displaying a window or buttons or text within a window. It includes anything 
+			that the user can see.
+		- CONTROLLER : requests handler
+			It acts as an interface between Model and View components, it updates both models and views.
+			It accepts input, manipulates data using the Model component, and interacts with the Views 
+			to render the final output. Controller handles the user request. When the user enters a URL
+			it goes to the server and calls the appropriate controller. Then, the Controller uses
+			the appropriate View and Model and creates the response and sends it back to the user.
+			
+			
+
   - joined models
   - components
   - communication between layers and components
@@ -147,8 +166,8 @@ Mocking (mock, stub, spy)
 
     stub:
       is an object that holds predefined data and uses it to answer calls during tests. 
-      It is used when we cannot or don’twant to involve objects that would answer with
-      real data or haveundesirable side effects.
+      It is used when we can not or don’t want to involve objects that would answer with
+      real data or have undesirable side effects.
 
     spy:
       lets you take an existing class, function, object and mock it in such a way that you 
