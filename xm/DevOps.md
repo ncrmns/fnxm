@@ -36,7 +36,7 @@ status (200, 404)
 
     4xx Client side error
 		- 400 Bad request
-	  - 401 I dont know who you are Authenticate and try again
+		- 401 I dont know who you are Authenticate and try again
 		- 403 I know who you are You dont have permission
 		- 404 Not found
 
