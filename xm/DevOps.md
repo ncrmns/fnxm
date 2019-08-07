@@ -45,8 +45,8 @@ status (200, 404)
 REST
 
 	  REpresentational State Transfer
-	  - architectural style for providing standards between computer systems on the web
-		- REST requires that a client make a request to the server in order to retrieve or modify data on the server
+     - architectural style for providing standards between computer systems on the web
+     - REST requires that a client make a request to the server in order to retrieve or modify data on the server
 
 HTTP, HTTPS
 
@@ -60,6 +60,7 @@ parts of URL
 
     http :// www.website.com / users / :param1 / data ? query1=xy & query2=zx
     .1..............2............3........4........3........5...........5....
+
 		1 - protocol
 		2 - "www" : world wide web, "website" : domain name, ".com" : domain extension
 		3,4,3 - resource name
@@ -81,10 +82,58 @@ parts of URL
   - communication between layers and components
 
 ## Testing
-  - model, unit
-  - integration, endpoint
+model
+
+    Model-based testing is a software testing technique in which the test cases are
+		derived from a model that describes the functional aspects of the system under test.
+		It makes use of a model to generate tests that includes both offline and online
+		testing.
+
+		+ Higher level of Automation is achieved.
+		+ Exhaustive testing is possible.
+		+ Changes to the model can be easily tested.
+		- Requires a formal specification or model to carry out testing.
+		- Changes to the model might result in a different set of tests altogether.
+		- Test Cases are tightly coupled to the model.
+
+unit
+
+	 individual units / components of a software are tested. The purpose is to validate 
+	 that each unit of the software performs as designed. A unit is the smallest testable
+	 part of any software.
+
+	 + Debugging is easy
+	 + Development is faster
+	 + Codes are more reliable
+	 - Cant test to every scenario
+	 - Less changeable codebase
+	 - integration is not tested
+
+integration
+
+    a level of software testing where individual units are combined and tested as a group.
+		The purpose of this level of testing is to expose faults in the interaction between 
+		integrated units.
+
+endpoint
+
+    test individual routes with a variety of input data and check the response
+
+		+ curl
+		+ postman
+		+ mockMVC
+
   - end to end
+
+	End-to-end testing is a methodology used to test whether the flow of an application is 
+	performing as designed from start to finish. The purpose of carrying out end-to-end tests 
+	is to identify system dependencies and to ensure that the right information is passed between
+	various system components and systems.
+
   - Mocking (mock, stub, spy)
+
+
+
   - assertions
 
 ## DB
