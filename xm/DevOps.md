@@ -79,7 +79,8 @@ parts of URL
   - service
   - MVC
 
-    an application design model, consists of three parts:
+      an application design model, consists of three parts:
+
 		- MODEL : database
 			Model represents shape of the data. It specifies the structure of data used by a program. 
 			This may be a database, file, or a simple object, such as an icon or a character in a
