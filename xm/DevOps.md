@@ -59,7 +59,7 @@ HTTP, HTTPS
 parts of URL
 
     http :// www.website.com / users / :param1 / data ? query1=xy & query2=zx
-		.1..............2............3........4........3........5...........5....
+    .1..............2............3........4........3........5...........5....
 		1 - protocol
 		2 - "www" : world wide web, "website" : domain name, ".com" : domain extension
 		3,4,3 - resource name
