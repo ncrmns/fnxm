@@ -1,10 +1,10 @@
 # Final exam requirement
 ## Endpoint
   - params
-		 Named URL segments used to capture the values specified at their position in the URL
-		 Route path: 	/users/:userId/books/:bookId
-		 Request url: http://../users/420/books/23
-		 Object: 			req.params: { "userId" : "420" , "bookId" : "23" }
+		    Named URL segments used to capture the values specified at their position in the URL
+		    Route path: 	/users/:userId/books/:bookId
+		    Request url: http://../users/420/books/23
+		    Object: 			req.params: { "userId" : "420" , "bookId" : "23" }
   - header
 	- body
 	- request / response
