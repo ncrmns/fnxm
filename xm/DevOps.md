@@ -88,6 +88,7 @@ parts of URL
 			A view is the means of displaying objects within an application. 
 			Examples: displaying a window or buttons or text within a window. It includes anything 
 			that the user can see.
+
 		- CONTROLLER : requests handler
 			It acts as an interface between Model and View components, it updates both models and views.
 			It accepts input, manipulates data using the Model component, and interacts with the Views 
