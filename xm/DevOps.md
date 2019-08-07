@@ -78,6 +78,7 @@ parts of URL
   - layers
   - service
   - MVC
+
     an application design model, consists of three parts:
 		- MODEL : database
 			Model represents shape of the data. It specifies the structure of data used by a program. 
