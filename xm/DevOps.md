@@ -174,7 +174,12 @@ Mocking (mock, stub, spy)
       lets you take an existing class, function, object and mock it in such a way that you 
       can control what gets returned from functions.
 
-  - assertions
+assertions
+
+		An expression which encapsulates some testable logic specified about a target under test.
+		The expression is formally presented as an assertion, along with some form of identifier,
+		to help testers and engineers ensure that tests of the target relate properly and clearly 
+		to the corresponding specified statements about the target.
 
 ## DB
   - ORM
