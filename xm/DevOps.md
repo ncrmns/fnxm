@@ -183,7 +183,14 @@ assertions
 
 ## DB
   - ORM
+
+		Object-Relational Mapping (ORM) is a technique that lets you query and manipulate data 
+		from a database using an object-oriented paradigm.
+
   - CRUD
+		
+		Create Read Update Delete
+
   - foreign key
   - SQL syntax
   - join
