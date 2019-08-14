@@ -1,0 +1,19 @@
+{
+  "name": "fnxm",
+  "version": "1.0.0",
+  "description": "You have to solve only one problem, that is assigned to you. Please don't use direct built in functions for the given problem like: reverse, count, indexOf, groupBy, split, join, etc... ​ ​ ## 1. ​ Create a function that takes a matrix (list of lists) of numbers and sums all the numbers. ​ ## 2. Create a function that reverses a string ​ ## 3. Create a function that determines if a string is a palindrome ​ ## 4. Create a function that returns how many letters in the word: \"duck\" (it is four) ​ ## 5. Create a function that takes two arrays and decides if their content is the same ​ ## 6. Create a function that takes a number returns a matrix (list of lists) with height and width as the number, all of it's elments should be zero, beside the main diagonal should be ones like:",
+  "main": "1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ncrmns/fnxm.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ncrmns/fnxm/issues"
+  },
+  "homepage": "https://github.com/ncrmns/fnxm#readme"
+}

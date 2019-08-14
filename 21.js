@@ -1,3 +1,4 @@
+
 'use strict'
 function filtering(arr1,arr2){
 	let ex = true;
@@ -16,3 +17,4 @@ function filtering(arr1,arr2){
 }
 
 console.log(filtering([1,2,3,4,5,6,7,8,9],[1,2,5,6]));
+module.exports = { filtering };
